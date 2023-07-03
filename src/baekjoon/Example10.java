@@ -25,11 +25,11 @@ public class Example10 {
 		int num1 = scanner.nextInt();
 		int num2 = scanner.nextInt();
 		
-	
-		System.out.println(num1 * );
-		System.out.println(num1 * );
-		System.out.println(num1 * );
-		System.out.println(num1 *);
+
+		System.out.println(num1 * (num2 % 10));
+		System.out.println(num1 * ((num2 / 10 )% 10));
+		System.out.println(num1 * (num2 / 100));
+		System.out.println(num1 * num2);
 
 		
 	}
